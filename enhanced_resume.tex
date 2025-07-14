@@ -1,0 +1,405 @@
+%-------------------------
+% Enhanced Modern Professional Resume
+% Author: Milav Jayeshkumar Dabgar
+% Compiled with XeLaTeX for best results
+%-------------------------
+
+\documentclass[11pt,a4paper]{article}
+
+% Packages for XeLaTeX
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+% Modern fonts
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+% Packages
+\usepackage[top=0.6in, bottom=0.6in, left=0.6in, right=0.6in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+% Colors - Enhanced palette
+\definecolor{primary}{RGB}{0, 79, 144}
+\definecolor{secondary}{RGB}{45, 45, 45}
+\definecolor{accent}{RGB}{0, 122, 204}
+\definecolor{lightgray}{RGB}{248, 248, 248}
+\definecolor{mediumgray}{RGB}{128, 128, 128}
+\definecolor{success}{RGB}{40, 167, 69}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdfauthor={Milav Jayeshkumar Dabgar},
+    pdftitle={Resume - Milav Jayeshkumar Dabgar},
+    pdfsubject={Professional Resume},
+    pdfkeywords={AI, Data Science, Engineering, Education, Innovation}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom section formatting with enhanced styling
+\titleformat{\section}
+    {\color{primary}\Large\sffamily\bfseries}
+    {}
+    {0em}
+    {}[{\color{primary}\titlerule[1pt]\vspace{-3pt}}]
+
+\titleformat{\subsection}
+    {\color{secondary}\large\sffamily\bfseries}
+    {}
+    {0em}
+    {}
+
+% Improved spacing
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
+
+% Custom commands with better formatting
+\newcommand{\resumeItem}[1]{
+    \item\small{#1 \vspace{-1pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{\color{secondary}#1} & \textbf{\color{mediumgray}\small #2} \\
+        \textit{\small\color{primary}#3} & \textit{\small\color{mediumgray} #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small\textbf{\color{secondary}#1} & \textbf{\color{mediumgray}\small #2} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.3in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+% Enhanced header design
+\newcommand{\makeheader}{
+    \begin{center}
+        % Header background with subtle styling
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[lightgray] (current page.north west) rectangle ([yshift=-3cm]current page.north east);
+        \end{tikzpicture}
+        
+        \vspace{0.3cm}
+        \begin{minipage}[t]{0.7\textwidth}
+            \raggedright
+            {\Huge\sffamily\bfseries\color{primary} Milav Jayeshkumar Dabgar}
+            
+            \vspace{6pt}
+            {\Large\sffamily\color{secondary} Lecturer \& AI/Data Science Practitioner}
+            
+            \vspace{8pt}
+            {\small\color{secondary} Engineering Educator $\bullet$ Innovation Leader $\bullet$ Full-Stack Developer}
+            
+            \vspace{12pt}
+            \begin{tabular}{@{}l@{\hspace{20pt}}l@{}}
+                \faIcon{envelope}\,\href{mailto:milav.dabgar@gmail.com}{\color{primary}milav.dabgar@gmail.com} &
+                \faIcon{phone}\,\color{secondary}+91 8128576285 \\[2pt]
+                \faIcon{linkedin}\,\href{https://linkedin.com/in/milavdabgar}{\color{primary}linkedin.com/in/milavdabgar} &
+                \faIcon{globe}\,\href{https://milav.in}{\color{primary}milav.in} \\[2pt]
+                \faIcon{map-marker-alt}\,\color{secondary}Gujarat, India &
+                \faIcon{id-card}\,\color{secondary}AICTE ID: 1-3241967546
+            \end{tabular}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.25\textwidth}
+            \raggedleft
+            \vspace{0.2cm}
+            \begin{tikzpicture}
+                \clip (0,0) circle (1.8cm);
+                \node at (0,0) {\includegraphics[width=3.6cm, height=3.6cm, keepaspectratio]{profile-picture.jpg}};
+                \draw[primary, line width=3pt] (0,0) circle (1.8cm);
+            \end{tikzpicture}
+        \end{minipage}
+    \end{center}
+    \vspace{0.3cm}
+}
+
+% Skill bar command
+\newcommand{\skillbar}[2]{
+    \textbf{#1} \\
+    \begin{tikzpicture}
+        \fill[lightgray] (0,0) rectangle (4,0.2);
+        \fill[primary] (0,0) rectangle (#2*4/5,0.2);
+    \end{tikzpicture}
+    \vspace{2pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------
+
+\begin{document}
+
+\makeheader
+
+%----------- EXECUTIVE SUMMARY -----------
+\section{Executive Summary}
+\justifying
+\small Engineering educator and R\&D professional with \textbf{9+ years} of comprehensive experience spanning electronics hardware development, embedded systems, AI/ML, and full-stack software engineering. Currently pursuing \textbf{BS in Data Science and Applications from IIT Madras} (Diploma in Programming completed). Distinguished by exceptional student mentorship resulting in \textbf{Rs. 45+ lakhs in innovation funding}, including successful Shark Tank India pitches. Proven expertise in bridging academia-industry gap through innovative teaching methodologies, infrastructure leadership, and real-world system development.
+
+%----------- CORE COMPETENCIES -----------
+\section{Core Competencies}
+\begin{multicols}{3}
+\small
+\textbf{Technical Leadership}
+\begin{itemize}[leftmargin=10pt, noitemsep, topsep=2pt]
+    \item Full-Stack Development
+    \item Infrastructure Management
+    \item AI/ML Implementation
+    \item Embedded Systems Design
+\end{itemize}
+
+\textbf{Academic Excellence}
+\begin{itemize}[leftmargin=10pt, noitemsep, topsep=2pt]
+    \item Innovation Mentorship
+    \item Curriculum Development
+    \item Research Supervision
+    \item Patent Guidance
+\end{itemize}
+
+\textbf{Strategic Roles}
+\begin{itemize}[leftmargin=10pt, noitemsep, topsep=2pt]
+    \item IT Strategy \& Implementation
+    \item Startup Ecosystem Development
+    \item Industry-Academia Collaboration
+    \item Project Management
+\end{itemize}
+\end{multicols}
+
+%----------- PROFESSIONAL EXPERIENCE -----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Lecturer (Class - II) \& Innovation Leader}{Nov 2016 -- Present}
+{Government Polytechnic, Education Department - Government of Gujarat}{Palanpur, Gujarat}
+\resumeItemListStart
+\resumeItem{Lead comprehensive technical education across Programming in C, Microprocessor \& Assembly Language Programming, Microcontroller, Embedded Systems, Circuit Design \& Tools, Consumer Electronics, and Entrepreneurship \& Industrial Management}
+\resumeItem{Hold key institutional positions: \textbf{IT Convener} (infrastructure strategy), \textbf{SSIP Co-Convener} (startup ecosystem), \textbf{Training \& Placement Member}, and active contributor to MIS and UDAYAM initiatives}
+\resumeItem{Achieved remarkable student success: mentored teams securing \textbf{Rs. 25+ lakhs from Shark Tank India} and \textbf{Rs. 20 lakhs through government innovation programs}, resulting in \textbf{2 student patents}}
+\resumeItem{Architected and deployed \textbf{Next.js-based Smart Academic Portal} featuring AI-driven attendance tracking, automated assessment workflows, comprehensive committee management, and real-time analytics dashboard}
+\resumeItem{Designed and manage enterprise-grade infrastructure: self-hosted Linux servers, Dockerized microservices, CI/CD pipelines, automated backup systems, and collaborative development workflows}
+\resumeItem{Transformed institutional technology landscape while fostering innovation culture and industry partnerships}
+\resumeItemListEnd
+
+\resumeSubheading
+{Electronics \& Communication Engineer (R\&D)}{Jul 2015 -- Oct 2016}
+{TEXEG India Private Limited (Japan-based Technology Firm)}{Gandhinagar, Gujarat}
+\resumeItemListStart
+\resumeItem{Led end-to-end product development lifecycle for commercial embedded systems in international R\&D environment}
+\resumeItem{Executed advanced circuit simulation, PCB design, firmware development, and sophisticated control systems implementation}
+\resumeItem{Designed and optimized advanced control algorithms (PID, PI, Fuzzy Logic) using MATLAB Control System Toolbox for high-precision industrial applications}
+\resumeItem{Delivered complete embedded solutions from concept to production, supporting cross-functional mechanical engineering teams}
+\resumeItem{Contributed to innovative product portfolio serving global markets with cutting-edge automation solutions}
+\resumeItemListEnd
+
+\resumeSubheading
+{Research \& Development Intern}{Aug 2014 -- Jul 2015}
+{eiTRA - eInfochips Training \& Research Academy Ltd}{Ahmedabad, Gujarat}
+\resumeItemListStart
+\resumeItem{Gained comprehensive foundation in embedded systems research methodologies and industry best practices}
+\resumeItem{Developed proficiency in advanced debugging techniques and hardware-software integration strategies}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- EDUCATION & CONTINUOUS LEARNING -----------
+\section{Education \& Continuous Learning}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{BS in Data Science and Applications}{2022 -- Present}
+{Indian Institute of Technology Madras (IIT Madras)}{Online Program}
+\resumeItemListStart
+\resumeItem{\textbf{Diploma in Programming} - Successfully Completed with Distinction}
+\resumeItem{\textbf{Diploma in Data Science} - Final project phase (95\% completion)}
+\resumeItem{Comprehensive coursework: Advanced Statistics, Machine Learning, Deep Learning, Data Visualization, Big Data Analytics}
+\resumeItem{Completed \textbf{100+ specialized courses} across AI/ML, Data Science, Computer Networks, Software Engineering, Database Systems, and emerging technologies through NPTEL platform with \textbf{elite performance rankings}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Master of Engineering, Communication Systems}{2013 -- 2015}
+{L.D College of Engineering, Gujarat Technological University}{Ahmedabad, Gujarat}
+\resumeItemListStart
+\resumeItem{Specialized in Digital Signal Processing, Wireless Communications, and Advanced Communication Protocols}
+\resumeItemListEnd
+
+\resumeSubheading
+{Bachelor of Engineering, Electronics \& Communication}{2009 -- 2013}
+{Sal Institute of Technology and Engineering Research}{Gujarat}
+\resumeItemListStart
+\resumeItem{Foundation in Electronics Design, Embedded Systems, and Communication Technologies}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- KEY PROJECTS & INNOVATIONS -----------
+\section{Key Projects \& Innovations}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Smart Academic Portal} \textit{(Next.js, React, Node.js, Docker, Linux)} - \textcolor{success}{Production System}}{2023 -- Present}
+\resumeItemListStart
+\resumeItem{Architected comprehensive academic management ecosystem serving 500+ students and 50+ faculty members}
+\resumeItem{Implemented AI-powered attendance tracking with 98\% accuracy, reducing administrative overhead by 60\%}
+\resumeItem{Built automated assessment pipeline with real-time analytics, improving result processing efficiency by 75\%}
+\resumeItem{Deployed on self-managed cloud infrastructure with 99.9\% uptime, zero-downtime deployments, and automated scaling}
+\resumeItem{Enabled collaborative development model with student contributors, fostering practical learning experiences}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Student Innovation Ecosystem} \textit{(IoT, Drones, Embedded Systems)} - \textcolor{success}{Rs. 45L+ Funding Success}}{2018 -- Present}
+\resumeItemListStart
+\resumeItem{Established comprehensive innovation pipeline from ideation to commercialization, mentoring 50+ student projects}
+\resumeItem{Guided breakthrough projects: IoT-based smart agriculture system, autonomous drone delivery platform, embedded automation solutions}
+\resumeItem{Achieved exceptional funding success: \textbf{Rs. 25 lakhs from Shark Tank India} and \textbf{Rs. 20 lakhs government grants}}
+\resumeItem{Resulted in \textbf{2 filed patents} and multiple technology transfer opportunities with industry partners}
+\resumeItem{Created sustainable mentorship model adopted across multiple institutions in Gujarat}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- TECHNICAL EXPERTISE -----------
+\section{Technical Expertise}
+\begin{multicols}{2}
+\small
+\textbf{Programming \& Development:}
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+    \item Python, R, C/C++, JavaScript
+    \item SQL, NoSQL, Assembly Language
+    \item Next.js, React, Node.js, Express
+    \item RESTful APIs, GraphQL
+\end{itemize}
+
+\textbf{Infrastructure \& DevOps:}
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+    \item Linux Server Administration
+    \item Docker, Kubernetes, CI/CD
+    \item Git, Version Control Systems
+    \item Cloud Computing, Self-hosted Solutions
+\end{itemize}
+
+\textbf{Data Science \& AI:}
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+    \item Machine Learning, Deep Learning
+    \item Computer Vision, NLP
+    \item Statistical Modeling, Data Analytics
+    \item TensorFlow, PyTorch, Scikit-learn
+\end{itemize}
+
+\textbf{Embedded Systems:}
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+    \item STM32, ARM Microcontrollers
+    \item PCB Design, Circuit Simulation
+    \item Firmware Development, RTOS
+    \item IoT Systems, Sensor Integration
+\end{itemize}
+
+\textbf{Tools \& Platforms:}
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+    \item MATLAB, Simulink, Control Systems
+    \item Image Processing, Signal Processing
+    \item CAD Tools, Simulation Software
+    \item Educational Technology Platforms
+\end{itemize}
+\end{multicols}
+
+%----------- PROFESSIONAL DEVELOPMENT & CERTIFICATIONS -----------
+\section{Professional Development \& Certifications}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{NPTEL Excellence \& Recognition}}{2019 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{NPTEL DISCIPLINE STARS - Computer Science} (Top 1\% performers nationally among 100,000+ learners)}
+\resumeItem{\textbf{100+ Course Completions} across diverse domains: AI/ML, Data Science, Computer Networks, Software Engineering, Database Management, Algorithms, Computer Graphics, Discrete Mathematics}
+\resumeItem{\textbf{Consistent Elite Performance:} Maintained top percentile rankings across multiple semesters and subject areas}
+\resumeItem{\textbf{NPTEL ENTHUSIASTS \& BELIEVERS} recognition for sustained excellence in online learning ecosystem}
+\resumeItem{Specialized certifications in: Machine Learning, Deep Learning, Data Analytics, Python Programming, Database Systems, Computer Vision, Natural Language Processing}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Innovation Leadership Excellence}}{2024 -- 2025}
+\resumeItemListStart
+\resumeItem{\textbf{Rs. 45+ lakhs} total funding secured through student mentorship programs}
+\resumeItem{Successfully guided teams through \textbf{Shark Tank India} pitching process with positive outcomes}
+\resumeItem{Established sustainable innovation pipeline adopted by peer institutions}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Academic Excellence - IIT Madras}}{2022 -- Present}
+\resumeItemListStart
+\resumeItem{Completed \textbf{Diploma in Programming} with distinction in competitive online program}
+\resumeItem{Currently pursuing \textbf{Diploma in Data Science} (final project phase)}
+\resumeItem{Achieved \textbf{100+ course completions} through NPTEL platform with \textbf{elite performance} and multiple domain expertise spanning Computer Science, AI/ML, Data Analytics, and Engineering subjects}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- ACHIEVEMENTS & RECOGNITION -----------
+\section{Achievements \& Recognition}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Innovation Leadership Excellence}}{2024 -- 2025}
+
+\resumeSubHeadingListEnd
+
+%----------- LEADERSHIP & INSTITUTIONAL CONTRIBUTIONS -----------
+\section{Leadership \& Institutional Contributions}
+\small
+\begin{tabular}{@{}p{0.25\textwidth}@{\hspace{10pt}}p{0.7\textwidth}@{}}
+\textbf{\color{primary}IT Convener} & Leading comprehensive technology transformation including infrastructure modernization, digital curriculum integration, and faculty technology training programs \\[8pt]
+\textbf{\color{primary}SSIP Co-Convener} & Spearheading Student Startup \& Innovation Policy implementation, establishing industry partnerships, and creating entrepreneurship ecosystem \\[8pt]
+\textbf{\color{primary}Training \& Placement} & Strategic member of institutional placement committee, developing industry connections and enhancing student employability \\[8pt]
+\textbf{\color{primary}MIS \& UDAYAM} & Contributing to Management Information Systems optimization and UDAYAM initiative for institutional excellence
+\end{tabular}
+
+%----------- PROFESSIONAL OBJECTIVES -----------
+\section{Professional Objectives}
+\small
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{\color{primary}Immediate Goal:} Secure AICTE Industry Fellowship to gain advanced industrial research experience in AI, embedded computing, or system design, bridging academic excellence with industry innovation
+    \item \textbf{\color{primary}Long-term Vision:} Pursue PhD in AI/Embedded Computing/System Design from premier institution while establishing Gujarat as a leading hub for diploma-level innovation and research-driven education
+    \item \textbf{\color{primary}Impact Mission:} Transform technical education landscape by integrating industrial rigor with academic excellence, fostering sustainable innovation ecosystems, and creating scalable models for interdisciplinary collaboration
+\end{itemize}
+
+%----------- PUBLICATIONS & RESEARCH -----------
+\section{Publications \& Research}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Resisting Blind Steganalysis in Real Time Covert Communication}}{Published Research}
+\resumeItemListStart
+\resumeItem{Advanced research in cybersecurity and information hiding techniques with practical applications}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
