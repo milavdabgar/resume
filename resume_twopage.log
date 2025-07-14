@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.15)  15 JUL 2025 02:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.15)  15 JUL 2025 02:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,116 +800,119 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@cols=\count324
 \TX@ftn=\toks38
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 46.
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 46.
+(hyperref)                removing `alignment tab' on input line 50.
 
 (./resume_twopage.aux)
 \openout1 = `resume_twopage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-32.
+39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 139.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 13
-2.
+9.
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 132.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 132.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 132.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 132.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 132.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 132.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 132.
-LaTeX Font Info:    Redeclaring math accent \check on input line 132.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 132.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 132.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 132.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 132.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 139.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 139.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 139.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 139.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 139.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 139.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 139.
+LaTeX Font Info:    Redeclaring math accent \check on input line 139.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 139.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 139.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 139.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 139.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 132.
+(Font)              `operators' in the math version `normal' on input line 139.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LiberationSerif(0)/m/n on input line
- 132.
+ 139.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 132.
+(Font)              `operators' in the math version `bold' on input line 139.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/m/n on input lin
-e 132.
+e 139.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LiberationSerif(0)/m/n --> TU/LiberationSerif(0)/m/n
- on input line 132.
+ on input line 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
-ne 132.
+ne 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
-e 132.
+e 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LiberationSans(0)/m/n on input line
- 132.
+ 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/m/n on input line
- 132.
+ 139.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LiberationSerif(0)/m/n --> TU/LiberationSerif(0)/b/n
- on input line 132.
+ on input line 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LiberationSerif(0)/b/it on input l
-ine 132.
+ine 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LiberationSans(0)/b/n on input lin
-e 132.
+e 139.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/b/n on input line
- 132.
+ 139.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -945,50 +948,65 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 132.
+Package hyperref Info: Link coloring ON on input line 139.
 (./resume_twopage.out) (./resume_twopage.out)
 \@outlinefile=\write4
 \openout4 = `resume_twopage.out'.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 134.
+(Font)              scaled to size 24.88pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 134.
+(Font)              scaled to size 24.88pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSans(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 134.
+(Font)              scaled to size 24.88pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 134.
+(Font)              scaled to size 14.4pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 134.
+(Font)              scaled to size 14.4pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 134.
+(Font)              scaled to size 10.0pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 134.
+(Font)              scaled to size 7.0pt on input line 141.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 134.
+(Font)              scaled to size 5.0pt on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 134.
+(Font)              <7> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 134.
+(Font)              <5> on input line 141.
+LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 141.
+LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 141.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 141.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 141.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 141.
 File: profile-picture.jpg Graphic file (type bmp)
 <profile-picture.jpg>
-LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 137.
-LaTeX Font Info:    Font shape `TU/LiberationSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 137.
 LaTeX Font Info:    Font shape `TU/LiberationSans(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 137.
+(Font)              scaled to size 14.4pt on input line 144.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 146.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 154.
  [1
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 268.
- [3] [4]
-(./resume_twopage.aux)
+(Font)              scaled to size 10.0pt on input line 272.
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+[3] (./resume_twopage.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -997,12 +1015,12 @@ Package rerunfilecheck Info: File `resume_twopage.out' has not changed.
 (rerunfilecheck)             Checksum: E8E8728C1FDB58909EF79A50E53611A7;1132.
  ) 
 Here is how much of TeX's memory you used:
- 28026 strings out of 474878
- 550882 string characters out of 5762516
+ 28093 strings out of 474878
+ 551994 string characters out of 5762516
  1946627 words of memory out of 5000000
- 49630 multiletter control sequences out of 15000+600000
- 558861 words of font info for 91 fonts, out of 8000000 for 9000
+ 49686 multiletter control sequences out of 15000+600000
+ 561584 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,7n,93p,927b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,93p,927b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume_twopage.pdf (4 pages).
+Output written on resume_twopage.pdf (3 pages).

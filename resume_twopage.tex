@@ -1,5 +1,5 @@
 %-------------------------
-% Two-Page Professional Resume
+% Professional Two-Page Resume
 % Author: Milav Jayeshkumar Dabgar
 % Compiled with XeLaTeX for best results
 %-------------------------
@@ -22,17 +22,21 @@
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{multicol}
+\usepackage{graphicx}
 \usepackage{fontawesome5}
 \usepackage{hyperref}
 \usepackage{tikz}
 \usepackage{array}
 \usepackage{tabularx}
+\usepackage{setspace}
 
 % Colors
 \definecolor{primary}{RGB}{0, 79, 144}
 \definecolor{secondary}{RGB}{45, 45, 45}
+\definecolor{accent}{RGB}{0, 122, 204}
 \definecolor{lightgray}{RGB}{248, 248, 248}
 \definecolor{mediumgray}{RGB}{128, 128, 128}
+\definecolor{success}{RGB}{40, 167, 69}
 
 % Hyperref setup
 \hypersetup{
@@ -41,7 +45,7 @@
     urlcolor=primary,
     pdfauthor={Milav Jayeshkumar Dabgar},
     pdftitle={Resume - Milav Jayeshkumar Dabgar - Two Page},
-    pdfsubject={Professional Resume},
+    pdfsubject={Professional Two-Page Resume},
     pdfkeywords={AICTE Fellowship, AI, Data Science, Engineering Education, Innovation, R&D}
 }
 
@@ -53,10 +57,10 @@
     {\color{primary}\Large\sffamily\bfseries}
     {}
     {0em}
-    {}[{\color{primary}\titlerule[1pt]\vspace{-2pt}}]
+    {}[{\color{primary}\titlerule[1pt]\vspace{-3pt}}]
 
 % Improved spacing
-\titlespacing*{\section}{0pt}{10pt}{6pt}
+\titlespacing*{\section}{0pt}{12pt}{8pt}
 
 % Custom commands
 \newcommand{\resumeItem}[1]{
@@ -66,63 +70,66 @@
 \newcommand{\resumeSubheading}[4]{
     \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{\small\color{secondary}#1} & \textbf{\color{mediumgray}\small #2} \\
+        \textbf{\color{secondary}#1} & \textbf{\color{mediumgray}\small #2} \\
         \textit{\small\color{primary}#3} & \textit{\small\color{mediumgray} #4} \\
-    \end{tabular*}\vspace{-2pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
         \small\textbf{\color{secondary}#1} & \textbf{\color{mediumgray}\small #2} \\
-    \end{tabular*}\vspace{-2pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.25in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.3in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
-% Enhanced header design (simplified for two-page)
+% Enhanced header design
 \newcommand{\makeheader}{
     \begin{center}
+        % Header background
         \begin{tikzpicture}[remember picture, overlay]
-            \fill[lightgray] (current page.north west) rectangle ([yshift=-2.5cm]current page.north east);
+            \fill[lightgray] (current page.north west) rectangle ([yshift=-3cm]current page.north east);
         \end{tikzpicture}
         
-        \vspace{0.2cm}
-        \begin{minipage}[t]{0.75\textwidth}
+        \vspace{0.3cm}
+        \begin{minipage}[t]{0.7\textwidth}
             \raggedright
-            {\huge\sffamily\bfseries\color{primary} Milav Jayeshkumar Dabgar}
-            
-            \vspace{4pt}
-            {\large\sffamily\color{secondary} Engineering Educator \& R\&D Professional}
+            {\Huge\sffamily\bfseries\color{primary} Milav Jayeshkumar Dabgar}
             
             \vspace{6pt}
-            {\small\color{secondary} Innovation Leader $\bullet$ Full-Stack Developer $\bullet$ AI/Data Science Practitioner}
+            {\Large\sffamily\color{secondary} Engineering Educator \& R\&D Professional}
             
             \vspace{8pt}
-            \small
-            \faIcon{envelope}\,\href{mailto:milav.dabgar@gmail.com}{\color{primary}milav.dabgar@gmail.com} $\bullet$
-            \faIcon{phone}\,+91 8128576285 $\bullet$
-            \faIcon{linkedin}\,\href{https://linkedin.com/in/milavdabgar}{\color{primary}linkedin.com/in/milavdabgar} \\
-            \vspace{2pt}
-            \faIcon{github}\,\href{https://github.com/milavdabgar}{\color{primary}github.com/milavdabgar} $\bullet$
-            \faIcon{globe}\,\href{https://milav.in}{\color{primary}milav.in} $\bullet$
-            \color{mediumgray}Gujarat, India $\bullet$ AICTE ID: 1-3241967546
+            {\small\color{secondary} Innovation Leader $\bullet$ Full-Stack Developer $\bullet$ AI/Data Science Practitioner}
+            
+            \vspace{12pt}
+            \begin{tabular}{@{}l@{\hspace{20pt}}l@{}}
+                \faIcon{envelope}\,\href{mailto:milav.dabgar@gmail.com}{\color{primary}milav.dabgar@gmail.com} &
+                \faIcon{phone}\,\color{secondary}+91 8128576285 \\[2pt]
+                \faIcon{linkedin}\,\href{https://linkedin.com/in/milavdabgar}{\color{primary}linkedin.com/in/milavdabgar} &
+                \faIcon{globe}\,\href{https://milav.in}{\color{primary}milav.in} \\[2pt]
+                \faIcon{github}\,\href{https://github.com/milavdabgar}{\color{primary}github.com/milavdabgar} &
+                \faIcon{graduation-cap}\,\href{https://www.coursera.org/user/e52746bb9f0640066b270cdc17eb7c6a}{\color{primary}Coursera Profile} \\[2pt]
+                \faIcon{map-marker-alt}\,\color{secondary}Gujarat, India &
+                \faIcon{id-card}\,\color{secondary}AICTE ID: 1-3241967546
+            \end{tabular}
         \end{minipage}
         \hfill
-        \begin{minipage}[t]{0.2\textwidth}
+        \begin{minipage}[t]{0.25\textwidth}
             \raggedleft
-            \vspace{0.1cm}
+            \vspace{0.2cm}
             \begin{tikzpicture}
-                \clip (0,0) circle (1.2cm);
-                \node at (0,0) {\includegraphics[width=2.4cm, height=2.4cm, keepaspectratio]{profile-picture.jpg}};
-                \draw[primary, line width=2pt] (0,0) circle (1.2cm);
+                \clip (0,0) circle (1.8cm);
+                \node at (0,0) {\includegraphics[width=3.6cm, height=3.6cm, keepaspectratio]{profile-picture.jpg}};
+                \draw[primary, line width=3pt] (0,0) circle (1.8cm);
             \end{tikzpicture}
         \end{minipage}
     \end{center}
-    \vspace{0.2cm}
+    \vspace{0.3cm}
 }
 
 %-------------------------------------------
@@ -146,12 +153,11 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 {Lecturer (Class - II) \& Innovation Leader}{Nov 2016 -- Present}
 {Government Polytechnic, Education Department - Government of Gujarat}{Palanpur, Gujarat}
 \resumeItemListStart
-\resumeItem{Lead comprehensive technical education across Programming in C, Microprocessor Programming, Embedded Systems, Circuit Design, Consumer Electronics, and Entrepreneurship}
+\resumeItem{Lead comprehensive technical education across Programming in C, Microprocessor Programming, Embedded Systems, Circuit Design, Consumer Electronics, and Entrepreneurship development}
 \resumeItem{Hold key institutional positions: \textbf{IT Convener} (infrastructure strategy), \textbf{SSIP Co-Convener} (startup ecosystem), \textbf{Training \& Placement Member}, and active contributor to MIS and UDAYAM initiatives}
 \resumeItem{Achieved remarkable student success: mentored teams securing \textbf{Rs. 25 lakhs from Shark Tank India} and \textbf{Rs. 20 lakhs through government innovation programs}, resulting in \textbf{2 student patents}}
-\resumeItem{Architected and deployed comprehensive \textbf{Next.js Academic Management System} at \href{https://gppalanpur.in/}{gppalanpur.in} with production-grade CI/CD pipeline, featuring complete institutional management with CSV import/export, advanced search/filter/sort capabilities, and automated feedback analysis}
-\resumeItem{Developed student portfolio system with LinkedIn-style public profiles, downloadable biodata/resume/CV generation, interactive newsletters with PDF/HTML export, and comprehensive paper solutions for ECE/ICT/IT branches in English/Gujarati}
-\resumeItem{Designed enterprise-grade infrastructure: self-hosted Linux servers, Dockerized microservices, CI/CD pipelines, and automated backup systems}
+\resumeItem{Architected and deployed comprehensive \textbf{Next.js Academic Management System} at \href{https://gppalanpur.in/}{gppalanpur.in} with production-grade CI/CD pipeline}
+\resumeItem{Developed enterprise-grade infrastructure: self-hosted Linux servers, Dockerized microservices, CI/CD pipelines, and automated backup systems}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -161,7 +167,6 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \resumeItem{Led end-to-end product development lifecycle for commercial embedded systems in international R\&D environment}
 \resumeItem{Executed circuit simulation, PCB design, firmware development, and control systems implementation}
 \resumeItem{Designed control algorithms (PID, PI, Fuzzy Logic) using MATLAB Control System Toolbox for industrial applications}
-\resumeItem{Delivered complete embedded solutions from concept to production, supporting cross-functional mechanical engineering teams}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -183,9 +188,8 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 {Indian Institute of Technology Madras (IIT Madras)}{Roll No: 21F1005510 | Overall CGPA: 7.07/10}
 \resumeItemListStart
 \resumeItem{\textbf{Foundation Level:} Completed (32/32 credits, CGPA: 7.50/10) - Strong performance in Computational Thinking, Mathematics for Data Science, and Programming in Python}
-\resumeItem{\textbf{Diploma Programming Track:} Completed (27/27 credits, CGPA: 7.19/10) - Database Management, Data Structures \& Algorithms, Modern Application Development I \& II with project work}
+\resumeItem{\textbf{Diploma Programming Track:} Completed (27/27 credits, CGPA: 7.19/10) - Database Management, Data Structures \& Algorithms, Modern Application Development I \& II}
 \resumeItem{\textbf{Diploma Data Science Track:} In Progress (21/27 credits, CGPA: 6.24/10) - Machine Learning Techniques, Business Analytics, Business Data Management}
-\resumeItem{\textbf{Current Status:} 80/142 credits completed toward full degree | Final phase coursework in Machine Learning Practice and Business Data Management projects}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -210,14 +214,14 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \small
 
 \textbf{Programming Languages:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
     \item Java, Python, JavaScript (ES6+), C/C++
     \item R, SQL, Assembly Language
     \item HTML5, CSS3, Markdown
 \end{itemize}
 
 \textbf{Web \& Full-Stack Development:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
     \item Next.js, React.js, Vue.js 3
     \item Node.js, Express.js, Flask, FastAPI
     \item RESTful APIs, JWT Authentication
@@ -225,7 +229,7 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \end{itemize}
 
 \textbf{Data Science \& Machine Learning:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
     \item TensorFlow, PyTorch, Scikit-learn
     \item Pandas, NumPy, Matplotlib, Seaborn
     \item Computer Vision, NLP, Deep Learning
@@ -233,23 +237,23 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \end{itemize}
 
 \textbf{Infrastructure \& DevOps:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
-    \item Linux Server Administration (Ubuntu, CentOS)
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
+    \item Linux Server Administration
     \item Docker, CI/CD Pipelines
     \item Git Version Control, GitHub Actions
     \item Self-hosted \& Cloud Solutions
 \end{itemize}
 
 \textbf{Embedded Systems \& Hardware:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
-    \item 8051, PIC, AVR Microcontrollers
-    \item STM32, Arduino, Raspberry Pi, ESP8266
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
+    \item 8051, PIC, AVR, STM32 Microcontrollers
+    \item Arduino, Raspberry Pi, ESP8266
     \item EagleCAD, Altium, OrCAD, KiCAD
     \item Multisim, Proteus, LTspice
 \end{itemize}
 
 \textbf{Engineering Tools \& Platforms:}
-\begin{itemize}[leftmargin=15pt, noitemsep, topsep=1pt]
+\begin{itemize}[leftmargin=15pt, noitemsep, topsep=2pt]
     \item MATLAB, Simulink, Control Systems
     \item FPGA Design, Verilog, Digital Design
     \item Signal \& Image Processing
@@ -265,11 +269,11 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{\href{https://github.com/milavdabgar/studio}{Smart Academic Portal}} \textit{| Next.js, React, Docker}}{2025 -- Present}
+{\textbf{\href{https://github.com/milavdabgar/studio}{Smart Academic Portal}} \textit{| Next.js, React, Docker, PostgreSQL}}{2025 -- Present}
 \resumeItemListStart
 \resumeItem{Production-ready academic management system deployed at \href{https://gppalanpur.in/}{gppalanpur.in} serving Government Polytechnic Palanpur with complete institutional infrastructure management}
 \resumeItem{Comprehensive admin dashboard with user/role management, CSV import/export, advanced filtering/sorting, automated feedback analysis, and multi-format report generation}
-\resumeItem{Student portfolio system with LinkedIn-style public profiles, downloadable resume/CV generation, interactive newsletters, and extensive paper solutions repository for ECE/ICT/IT branches in English/Gujarati}
+\resumeItem{Student portfolio system with LinkedIn-style public profiles, downloadable resume/CV generation, interactive newsletters, and extensive paper solutions repository}
 \resumeItem{Enterprise-grade deployment with self-hosted infrastructure, CI/CD pipelines, zero-downtime deployments, and collaborative development with student contributors}
 \resumeItemListEnd
 
@@ -282,25 +286,23 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\textbf{\href{https://github.com/milavdabgar/MLP-Project}{System Threat Forecaster}} \textit{| Python, Machine Learning, Data Analysis}}{2024 -- 2025}
+{\textbf{\href{https://github.com/milavdabgar/MLP-Project}{System Threat Forecaster}} \textit{| Python, Machine Learning, TensorFlow}}{2024 -- 2025}
 \resumeItemListStart
 \resumeItem{Developed comprehensive machine learning pipeline for system threat prediction and cybersecurity risk assessment}
 \resumeItem{Implemented advanced data analysis and predictive modeling techniques using Python, TensorFlow, and Scikit-learn}
 \resumeItem{Applied pattern recognition and anomaly detection algorithms for real-time threat identification}
-\resumeItem{Demonstrated practical application of IIT Madras Machine Learning coursework in cybersecurity domain}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {\textbf{\href{https://github.com/milavdabgar/21f1005510-mad2}{Scarlett Web Application (MAD2)}} \textit{| Vue.js, Flask, PostgreSQL}}{2023 -- 2024}
 \resumeItemListStart
-\resumeItem{Enhanced platform with modern Vue.js 3 frontend and advanced backend processing}
+\resumeItem{Enhanced platform with modern Vue.js 3 frontend and advanced Flask backend processing}
 \resumeItem{Implemented microservices-style API structure with dedicated modules for comprehensive functionality}
 \resumeItem{Integrated Celery with Redis for asynchronous task handling and background processing capabilities}
-\resumeItem{Built comprehensive analytics and reporting system with Chart.js visualizations and real-time data}
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\textbf{FPGA Image Steganography} \textit{| FPGA, Verilog, DSP}}{2014 -- 2015}
+{\textbf{FPGA Image Steganography} \textit{| FPGA, Verilog, Digital Signal Processing}}{2014 -- 2015}
 \resumeItemListStart
 \resumeItem{Developed hardware implementation of YASS (Yet Another Steganographic Scheme) for secure communication}
 \resumeItem{Implemented resistance to blind steganalysis attacks using advanced algorithms}
@@ -317,7 +319,6 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 {\textbf{Student Innovation Mentorship Excellence}}{2018 -- Present}
 \resumeItemListStart
 \resumeItem{Established comprehensive innovation pipeline from ideation to commercialization, mentoring 50+ student projects}
-\resumeItem{Guided breakthrough projects: IoT-based smart agriculture system, autonomous drone delivery platform, embedded automation solutions}
 \resumeItem{Achieved exceptional funding success: \textbf{Rs. 25 lakhs from Shark Tank India} and \textbf{Rs. 20 lakhs from government innovation programs}}
 \resumeItem{Resulted in \textbf{2 filed patents} and multiple technology transfer opportunities with industry partners}
 \resumeItemListEnd
@@ -343,8 +344,8 @@ Engineering educator and R\&D professional with \textbf{9+ years} of comprehensi
 %----------- PROFESSIONAL OBJECTIVES -----------
 \section{Professional Objectives}
 \small
-\textbf{\color{primary}Immediate Goal:} Secure AICTE Industry Fellowship to gain advanced industrial research experience in AI, embedded computing, or system design, bridging academic excellence with industry innovation \\
-\textbf{\color{primary}Long-term Vision:} Pursue PhD in AI/Embedded Computing/System Design from premier institution while establishing Gujarat as a leading hub for diploma-level innovation and research-driven education \\
+\textbf{\color{primary}Immediate Goal:} Secure AICTE Industry Fellowship to gain advanced industrial research experience in AI, embedded computing, or system design, bridging academic excellence with industry innovation \\\\
+\textbf{\color{primary}Long-term Vision:} Pursue PhD in AI/Embedded Computing/System Design from premier institution while establishing Gujarat as a leading hub for diploma-level innovation and research-driven education \\\\
 \textbf{\color{primary}Impact Mission:} Transform technical education landscape by integrating industrial rigor with academic excellence, fostering sustainable innovation ecosystems, and creating scalable models for interdisciplinary collaboration
 
 \end{document}
