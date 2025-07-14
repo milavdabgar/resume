@@ -1,0 +1,662 @@
+Indian Institute of Technology Madras
+PROGRESS CARD
+Name: DABGAR MILAV JAYESHKUMAR Roll Number: 21F1005510
+Program: BS in Data Science and Applications
+Current Level: DIPLOMA
+
+Term
+
+Course
+
+Title
+
+Credit
+
+Category Grade
+
+JAN 2021
+
+HS1001
+
+English I
+
+4
+
+FL
+
+A
+
+JAN 2021
+
+CS1001
+
+Computational Thinking
+
+4
+
+FL
+
+A
+
+JAN 2021
+
+MA1001
+
+Mathematics for Data Science I
+
+4
+
+FL
+
+A
+
+JAN 2021
+
+MA1002
+
+Statistics for Data Science I
+
+4
+
+FL
+
+C
+
+MAY 2021
+
+HS1002
+
+English II
+
+4
+
+FL
+
+C
+
+MAY 2021
+
+CS1002
+
+Programming in Python
+
+4
+
+FL
+
+C
+
+MAY 2021
+
+MA1003
+
+Mathematics for Data Science II
+
+4
+
+FL
+
+D
+
+MAY 2021
+
+MA1004
+
+Statistics for Data Science II
+
+4
+
+FL
+
+U
+
+SEP 2021
+
+MA1004
+
+Statistics for Data Science II
+
+4
+
+FL
+
+D
+
+JAN 2022
+
+CS2001
+
+Database Management Systems
+
+4
+
+DP
+
+B
+
+JAN 2022
+
+CS2002
+
+Programming, Data Structures and Algorithms using Python
+
+4
+
+DP
+
+E
+
+MAY 2022
+
+CS2003
+
+Modern Application Development I
+
+4
+
+DP
+
+A
+
+MAY 2022
+
+CS2005
+
+Programming Concepts using Java
+
+4
+
+DP
+
+I
+
+SEP 2022
+
+CS2005
+
+Programming Concepts using Java
+
+4
+
+DP
+
+C
+
+SEP 2022
+
+CS2006
+
+Modern Application Development II
+
+4
+
+DP
+
+C
+
+SEP 2022
+
+SE2001
+
+System Commands
+
+3
+
+DP
+
+D
+
+JAN 2023
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+I
+
+JAN 2023
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+I
+
+JAN 2023
+
+CS2004
+
+Machine Learning Foundations
+
+4
+
+DD
+
+I
+
+JAN 2023
+
+MS2001
+
+Business Data Management
+
+4
+
+DD
+
+I
+
+MAY 2023
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+I
+
+MAY 2023
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+I
+
+MAY 2023
+
+CS2004
+
+Machine Learning Foundations
+
+4
+
+DD
+
+E
+
+Date: 02 May 2025
+
+Coordinator
+IIT Madras BS Program
+
+Disclaimer: This document was generated electronically
+Scan QR code to verify the progress card
+Page 1 of 4
+
+Indian Institute of Technology Madras
+PROGRESS CARD
+Name: DABGAR MILAV JAYESHKUMAR Roll Number: 21F1005510
+Program: BS in Data Science and Applications
+Current Level: DIPLOMA
+
+Term
+
+Course
+
+Title
+
+Credit
+
+Category Grade
+
+MAY 2023
+
+MS2001
+
+Business Data Management
+
+4
+
+DD
+
+A
+
+MAY 2023
+
+MS2001P
+
+Business Data Management - Project
+
+2
+
+DD
+
+I
+
+SEP 2023
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+I
+
+SEP 2023
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+I
+
+SEP 2023
+
+MS2001P
+
+Business Data Management - Project
+
+2
+
+DD
+
+U
+
+JAN 2024
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+U
+
+JAN 2024
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+U
+
+JAN 2024
+
+MS2001P
+
+Business Data Management - Project
+
+2
+
+DD
+
+I
+
+MAY 2024
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+I
+
+MAY 2024
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+I
+
+SEP 2024
+
+CS2003P
+
+Modern Application Development I - Project
+
+2
+
+DP
+
+A
+
+SEP 2024
+
+CS2006P
+
+Modern Application Development II - Project
+
+2
+
+DP
+
+A
+
+SEP 2024
+
+CS2007
+
+Machine Learning Techniques
+
+4
+
+DD
+
+D
+
+JAN 2025
+
+MS2001P
+
+Business Data Management - Project
+
+2
+
+DD
+
+I
+
+JAN 2025
+
+CS2008
+
+Machine Learning Practice
+
+4
+
+DD
+
+I
+
+JAN 2025
+
+CS2008P
+
+Machine Learning Practice - Project
+
+2
+
+DD
+
+A
+
+JAN 2025
+
+MS2002
+
+Business Analytics
+
+4
+
+DD
+
+E
+
+JAN 2025
+
+SE2002
+
+Tools in Data Science
+
+3
+
+DD
+
+C
+
+Date: 02 May 2025
+
+Coordinator
+IIT Madras BS Program
+
+Disclaimer: This document was generated electronically
+Scan QR code to verify the progress card
+Page 2 of 4
+
+Indian Institute of Technology Madras
+PROGRESS CARD
+Name: DABGAR MILAV JAYESHKUMAR Roll Number: 21F1005510
+Program: BS in Data Science and Applications
+Current Level: DIPLOMA
+
+Cumulative Grade Point Average (CGPA) Summary
+Category
+
+Foundation
+Level (FL)
+
+Diploma Programming
+(DP)
+
+Diploma Data Science
+(DD)
+
+Degree Programming
+(BP)
+
+Degree - Data
+Science (BD)
+
+Humanities &
+Management
+(HM)
+
+Science and
+Engineering
+(SE)
+
+Total
+
+Min. Required Credits
+
+32
+
+27
+
+27
+
+16
+
+16
+
+8
+
+0
+
+142
+
+Earned Credits
+
+32
+
+27
+
+21
+
+0
+
+0
+
+0
+
+0
+
+80
+
+Transferred Credits Φ
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+CGPA
+
+7.50
+
+7.19
+
+6.24
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+7.07
+
+Φ Transferred Credits are not considered for CGPA calculation.Transferred Credits + Earned Credits should meet the total credit requirement
+
+Date: 02 May 2025
+
+Coordinator
+IIT Madras BS Program
+
+Disclaimer: This document was generated electronically
+Scan QR code to verify the progress card
+Page 3 of 4
+
+Page 4 of 4
+
+
