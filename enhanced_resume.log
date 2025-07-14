@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.15)  15 JUL 2025 00:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.15)  15 JUL 2025 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,56 +1004,24 @@ LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 168.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 185.
-
-Overfull \hbox (14.53014pt too wide) in paragraph at lines 191--192
-[]\TU/LiberationSerif(0)/m/n/10 Designed and manage enterprise-grade infrastruc
-ture: self-hosted Linux servers, Dockerized microservices, CI/CD pipelines,
- []
-
-[1
+ [1
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/b/it' will be
 (Font)              scaled to size 10.0pt on input line 361.
-
-Overfull \hbox (45.36313pt too wide) in alignment at lines 372--372
-[] [] 
- []
-
-
-Overfull \hbox (64.90414pt too wide) in alignment at lines 382--382
-[] [] 
- []
-
-
-Overfull \hbox (14.14243pt too wide) in alignment at lines 392--392
-[] [] 
- []
-
-
-Overfull \hbox (47.26254pt too wide) in alignment at lines 401--401
-[] [] 
- []
-
-[3] [4] (./enhanced_resume.aux)
+ [3] [4]
+(./enhanced_resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `enhanced_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `enhanced_resume.out':
-(rerunfilecheck)             Before: 4D0FED372C92327C91CA94B0989AAE62;453
-(rerunfilecheck)             After:  9B1EAE599181E399274C76EB05613B8D;1230.
+Package rerunfilecheck Info: File `enhanced_resume.out' has not changed.
+(rerunfilecheck)             Checksum: 9B1EAE599181E399274C76EB05613B8D;1230.
  ) 
 Here is how much of TeX's memory you used:
  28182 strings out of 474878
  553926 string characters out of 5762516
- 1947627 words of memory out of 5000000
+ 1946627 words of memory out of 5000000
  49771 multiletter control sequences out of 15000+600000
  561584 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
